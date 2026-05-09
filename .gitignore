@@ -1,0 +1,9 @@
+# Cache
+.idea/
+.vscode/
+__pycache__
+
+# Data / logs (generated locally)
+*.csv
+*.log
+*.pdf
