@@ -5,7 +5,7 @@
 ## 主要功能
 
 - `record.py`：开启 teachMode、允许人工拖动机械臂录制轨迹，通过 RTDE 采集机器人状态并保存为 CSV，同时记录夹爪开合命令（键盘触发）
-- `replay.py`：读取 CSV，使用 `moveJ + servoJ` 回放关节轨迹，并同步控制夹爪（含一个带力控补偿的回放函数）
+- `replay.py`：读取 CSV，使用 `moveJ + servoJ` 回放关节轨迹，并同步控制夹爪（可选择带力控补偿的回放模式）
 - `teach.py`：仅开启 teachMode 和夹爪键盘控制小工具（不记录数据）
 - `gripper_controller.py`：夹爪 Modbus 控制类
 
